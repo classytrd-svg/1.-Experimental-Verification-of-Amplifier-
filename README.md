@@ -1,5 +1,5 @@
 #**EX.NO:** 1  # EXPERIMENTAL VERIFICATION OF AMPLIFIER INVERTING, NON INVERTING , DIFFERENTIAL AMPLIFIER AND INSTRUMENTATION AMPLIFIERS
-**DATE:**  
+**DATE:**12/08/2025  
 ---
 
 ## AIM
@@ -16,7 +16,7 @@ To design and construct an Inverting, Non-Inverting, Differential and Instrument
 | 3 | Dual RPS | (0 – 30) V | 1 |
 | 4 | Op-Amp | µA741 | 1 |
 | 5 | Bread Board | — | 1 |
-| 6 | Resistors | 1K, 10K, 2.2K | 2 |
+| 6 | Resistors | 20k 10k 3k 1.5k | 2 |
 | 7 | Connecting wires and probes | As required | — |
 
 ---
@@ -51,7 +51,7 @@ PIN DIAGRAM
 <img width="624" height="269" alt="image" src="https://github.com/user-attachments/assets/635c9837-d5f5-4d6f-acc9-8a47a4368230" />
 
 CIRCUIT DIAGRAM: INVERTING AMPLIFIER:
-<img width="779" height="440" alt="image" src="https://github.com/user-attachments/assets/a14d8bc1-9dc7-4a49-98b0-f5320f450a63" />
+![WhatsApp Image 2025-11-24 at 17 19 17_e985eea8](https://github.com/user-attachments/assets/26a7371f-ad89-4c83-9359-a4a23733c699)
 
 MODEL GRAPH 
 
@@ -68,6 +68,9 @@ Take  A = 10
 Rf =10 R1
 Choose R1 = 1kΩ, Rf=10kΩ
 
+![WhatsApp Image 2025-11-24 at 17 19 58_2fa558ae](https://github.com/user-attachments/assets/1f6b6e77-aad4-4c70-ab3d-2968417af9aa)
+
+
 PROCEDURE:
 Inverting amplifier:
 
@@ -82,17 +85,16 @@ Inverting amplifier:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |			
+![WhatsApp Image 2025-11-24 at 17 27 29_6d4c2fdc](https://github.com/user-attachments/assets/217487a6-2fd1-4ab2-ba7b-da1c57b30487)
+
  
 
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![WhatsApp Image 2025-11-24 at 17 20 30_2bba7084](https://github.com/user-attachments/assets/9621c8a2-b27e-4172-b26a-69302b8c4a3e)
+![WhatsApp Image 2025-11-24 at 17 27 46_c1542b1b](https://github.com/user-attachments/assets/ccab6d86-87e2-4afa-9616-caa27c3096ec)
 
 ---
 ### **Non-Inverting Amplifier**
@@ -109,7 +111,11 @@ ACL = 1 + RF/R1
 ## CIRCUIT DIAGRAM
 
 
-<img width="704" height="397" alt="image" src="https://github.com/user-attachments/assets/1b4b170f-cf21-4fa9-9dc7-96db30b3c153" />
+![WhatsApp Image 2025-11-24 at 17 19 32_396b1530](https://github.com/user-attachments/assets/7ae8130e-8f2a-4327-b8cc-3ed1641afe5a)
+
+DESIGN
+
+![WhatsApp Image 2025-11-24 at 17 20 03_01c995de](https://github.com/user-attachments/assets/9478e321-68e4-4d53-8fce-a1113940728b)
 
 ---
 
@@ -130,15 +136,14 @@ PROCEDURE:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+![WhatsApp Image 2025-11-26 at 20 31 17_b530bdba](https://github.com/user-attachments/assets/e6479391-197c-4d8e-a99a-d594a4fcc6f2)
+
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-24 at 17 20 39_f11a3063](https://github.com/user-attachments/assets/04eb9330-7fdd-4c35-872b-4ffd8de6e566)
 
+![WhatsApp Image 2025-11-24 at 17 27 46_2dbcf299](https://github.com/user-attachments/assets/50605cc7-d7b5-48b3-ac61-916481207408)
 
 ---
 ## DIFFERENTIAL AMPLIFIER
@@ -150,7 +155,8 @@ If the two input signals are identical, the output is ideally **zero**.
 
 A = Vo/{V2 - V1} = -Rf/R1
 ## CIRCUIT DIAGRAM
-<img width="706" height="522" alt="image" src="https://github.com/user-attachments/assets/917f2544-3735-4a23-a9b7-1264966d0d20" />
+
+![WhatsApp Image 2025-11-24 at 17 32 20_054697e5](https://github.com/user-attachments/assets/d6d92e0f-a2dc-4328-b8f6-bc7e5e17e73e)
 
 ## MODEL GRAPH
 <img width="678" height="334" alt="image" src="https://github.com/user-attachments/assets/6aa1b9dd-b112-4be1-a37a-d5ee19607b1d" />
@@ -158,6 +164,7 @@ A = Vo/{V2 - V1} = -Rf/R1
 ---
 
 ## DESIGN
+![WhatsApp Image 2025-11-24 at 17 20 15_7ca3b4c9](https://github.com/user-attachments/assets/c8878848-3b16-4d33-848a-82e67f7d025d)
 
 
 ### **Differential Amplifier**
@@ -186,14 +193,14 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 
 ## TABULATION (Differential Amplifier)
 
-| S.No | V1 (V) | V2 (V) | Vo = (-Rf/R1)(V1 - V2) (V) | Theoretical | Practical |
-|------|---------|---------|-----------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+![WhatsApp Image 2025-11-26 at 20 31 38_0587c743](https://github.com/user-attachments/assets/63cfdd7d-dd6f-4b68-9316-14a6044080ba)
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+![WhatsApp Image 2025-11-24 at 17 21 00_ebfba25f](https://github.com/user-attachments/assets/8f067d85-1744-49c9-b1b7-1b27159cda72)
+
+![WhatsApp Image 2025-11-24 at 17 27 53_91644e97](https://github.com/user-attachments/assets/92950d98-db8c-4f97-bfae-305726c9b156)
 
 
 ---
@@ -209,7 +216,12 @@ Vo = RF/R1[1+ 2R’/R][V2-V1]
 
 ## CIRCUIT DIAGRAM: INSTRUMENTATION AMPLIFIER
 
-<img width="1006" height="1087" alt="image" src="https://github.com/user-attachments/assets/636c08f9-7940-470e-a89e-4891d57a9ac7" />
+
+![WhatsApp Image 2025-11-24 at 17 19 50_d4f8b507](https://github.com/user-attachments/assets/a45068e9-52bf-40f1-a9a8-9a4eaa3e6d46)
+
+DESIGN
+
+![WhatsApp Image 2025-11-24 at 17 20 20_2f7824d7](https://github.com/user-attachments/assets/59abdbb7-ad0d-4587-9d74-191743bc6eb9)
 
 PROCEDURE:
 
@@ -225,15 +237,14 @@ PROCEDURE:
 
 ## TABULATION (Instrumentation Amplifier)
 
-| S.No | V1 (V) | V2 (V) | Vo = (Rf / R1) [1 + (2R’ / R)] (V2 – V1) (V) | Theoretical | Practical |
-|------|---------|---------|----------------------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+![WhatsApp Image 2025-11-26 at 20 31 52_46b5f497](https://github.com/user-attachments/assets/db754f28-08f5-4d95-a846-0b7a80ac10f8)
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![WhatsApp Image 2025-11-24 at 17 21 00_a9436a17](https://github.com/user-attachments/assets/63879c2c-09b3-48f4-b2bf-baf31fef65d6)
+
+![WhatsApp Image 2025-11-24 at 17 27 53_5d6c823b](https://github.com/user-attachments/assets/6d9d8d03-563f-4973-a892-e770f2adf2f7)
 
 ---
 ## RESULT
